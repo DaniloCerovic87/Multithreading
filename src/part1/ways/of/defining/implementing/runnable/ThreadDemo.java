@@ -7,8 +7,10 @@ public class ThreadDemo {
         t.start();
 
         for (int i = 0; i < 100; i++) {
-            System.out.println("main Thread");
+            System.out.println("Main Thread");
         }
     }
 
 }
+
+
