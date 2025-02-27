@@ -1,4 +1,4 @@
-package part1.ways.of.defining.extending.thread;
+package part1_ways_of_defining_and_basic_operations.extending_thread;
 
 public class MyThreadDemo {
 
@@ -7,7 +7,7 @@ public class MyThreadDemo {
         t.start();
 
         for (int i = 0; i < 100; i++) {
-            System.out.println("Main Thread");
+            System.out.println("main Thread");
         }
     }
 

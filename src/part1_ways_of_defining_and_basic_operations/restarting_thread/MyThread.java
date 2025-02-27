@@ -1,4 +1,4 @@
-package part1.ways.of.defining.extending.thread;
+package part1_ways_of_defining_and_basic_operations.restarting_thread;
 
 public class MyThread extends Thread {
 

@@ -1,4 +1,4 @@
-package part1.ways.of.defining.extending.thread.restarting.same.thread;
+package part2_thread_priorities;
 
 public class MyThread extends Thread {
 

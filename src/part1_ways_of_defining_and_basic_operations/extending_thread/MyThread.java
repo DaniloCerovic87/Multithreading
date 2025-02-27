@@ -1,4 +1,4 @@
-package part2.thread.priorities;
+package part1_ways_of_defining_and_basic_operations.extending_thread;
 
 public class MyThread extends Thread {
 

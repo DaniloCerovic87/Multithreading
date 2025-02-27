@@ -1,4 +1,4 @@
-package part1.ways.of.defining.implementing.runnable;
+package part1_ways_of_defining_and_basic_operations.implementing_runnable;
 
 public class MyRunnable implements Runnable {
 

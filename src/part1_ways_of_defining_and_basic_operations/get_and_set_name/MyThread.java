@@ -1,4 +1,4 @@
-package part1.ways.of.defining.extending.thread.name;
+package part1_ways_of_defining_and_basic_operations.get_and_set_name;
 
 public class MyThread extends Thread {
 

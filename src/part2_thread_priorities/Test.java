@@ -1,4 +1,4 @@
-package part2.thread.priorities;
+package part2_thread_priorities;
 
 public class Test {
 
