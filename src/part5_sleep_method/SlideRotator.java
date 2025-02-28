@@ -7,6 +7,6 @@ public class SlideRotator {
             System.out.println("Slide-" + i);
             Thread.sleep(1000);
         }
-
     }
+
 }
