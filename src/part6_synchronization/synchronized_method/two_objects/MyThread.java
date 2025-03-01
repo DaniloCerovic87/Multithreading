@@ -1,4 +1,4 @@
-package part6_synchronization.synchronized_method;
+package part6_synchronization.synchronized_method.two_objects;
 
 public class MyThread extends Thread {
 
@@ -14,5 +14,4 @@ public class MyThread extends Thread {
     public void run() {
         d.wish(name);
     }
-
 }
