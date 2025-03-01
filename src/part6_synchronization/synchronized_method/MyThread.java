@@ -1,4 +1,4 @@
-package part6_syncronization.synchronized_method;
+package part6_synchronization.synchronized_method;
 
 public class MyThread extends Thread {
 
