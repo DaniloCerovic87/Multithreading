@@ -2,7 +2,7 @@ package part6_synchronization.synchronized_block;
 
 public class Display {
 
-    public synchronized void wish(String name) {
+    public void wish(String name) {
 
         // many lines of the code
         synchronized (this) {
