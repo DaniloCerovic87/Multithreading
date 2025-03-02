@@ -1,12 +1,11 @@
-package part6_synchronization.synchronized_block;
+package part6_synchronization.synchronized_block.class_level_lock;
 
 public class Display {
 
     public void wish(String name) {
 
         // many lines of the code
-
-        synchronized (this) {
+        synchronized (Display.class) {
             for (int i = 0; i < 10; i++) {
                 System.out.print("Good morning: ");
                 try {
@@ -18,6 +17,7 @@ public class Display {
         }
 
         // many lines of the code
+
     }
 
 
