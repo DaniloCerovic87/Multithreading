@@ -7,7 +7,10 @@ public class ThreadA {
         b.start();
         synchronized (b) {
             System.out.println("Main thread trying to call wait() method");
-            b.wait();
+            b.wait(10);
+            /* it is safer to put some waiting time in order to cover potential
+            problem of infinite program execution if ThreadB gets the lock first
+             */
             System.out.println("Main thread got notification");
             System.out.println(b.total);
         }
