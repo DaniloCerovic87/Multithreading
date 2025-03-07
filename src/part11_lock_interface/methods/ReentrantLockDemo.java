@@ -1,8 +1,8 @@
-package part11_lock_interface;
+package part11_lock_interface.methods;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ReentrantLockDemo1 {
+public class ReentrantLockDemo {
 
     public static void main(String[] args) {
         ReentrantLock l = new ReentrantLock();
