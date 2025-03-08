@@ -1,4 +1,4 @@
-package part11_lock_interface.try_lock_example;
+package part11_lock_interface.try_lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

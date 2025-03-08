@@ -1,4 +1,4 @@
-package part11_lock_interface.lock_example;
+package part11_lock_interface.reentrant_lock;
 
 public class ReentrantLockDemo {
 
